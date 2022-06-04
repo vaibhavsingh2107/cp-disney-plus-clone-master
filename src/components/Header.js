@@ -127,6 +127,11 @@ const Logo = styled.a`
   font-size: 0;
   display: inline-block;
 
+  &:hover{
+    cursor: pointer;
+  }
+  
+
   img {
     display: block;
     width: 100%;
@@ -211,6 +216,7 @@ const Login = styled.a`
     background-color: #f9f9f9;
     color: #000;
     border-color: transparent;
+    cursor: pointer;
   }
 `;
 
